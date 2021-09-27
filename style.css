@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-content: center;*/
+	width: 100%;
+	height: 100vh;
+	background: #f0f2f5;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-item: center;
+}
+.left, .right, form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.left{
+	margin-left: 30px;
+	width: 600px;
+	align-items: flex-start;
+	padding: 50px;
+
+}
+.left h1{
+	font-family: facebook latter faces,sans-serif;
+	font-size: 60px;
+	color: #1877f2;
+	font-weight: 500px;
+}
+.left p{
+	margin-top: 10px;
+	font-size: 26px;
+	color: #1c1e21;
+	height: 180px;
+	font-family:'', sans-serif;
+	letter-spacing: 0.2px;
+
+}
+.right{
+	width: 400px;
+}
+form{
+	background: white;
+	border-radius: 10px;
+	width: 400px;
+	display: flex;
+	padding: 20px;
+	margin-bottom: 25px;
+	margin-right: 50;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+form input{
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	outline: none;
+	font-size: 16px;
+}
+
+.loginBtn{
+	background: #1877f2;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Arial';
+	font-weight: 700;
+	tanstion: 0.5s;
+
+}
+
+.loginBtn:hover{
+	background: #0065e8;
+}
+
+.forget{
+	margin: 20px 0;
+	color: #1877f2;
+	font-family: 'Arial';
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.sign-up{
+	padding-top: 20px;
+	border-top: 1px solid #bbb;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+
+}
+
+.signupBtn{
+	background: #42b72a;
+	padding: 14px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 17px;
+	font-family: 'Arial';
+	font-weight: 600;
+	transition: 0.5s ;
+
+}
+
+.signupBtn:hover{
+	background: green;
+
+}
+
+.right p{
+	font-family: 'Arial';
+	font-size: 15px;
+
+}
+p a{
+	text-decoration: none;
+	color: black;
+	font-weight: boldf;
+}
+@media(max-width: 900px){
+	.container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.left{
+		width: 500px;
+		align-items: center;
+		align-content: center;
+	}
+	.left p{
+		height: 75px;
+	}
+
+}
+
+
+
+
+
